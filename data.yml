@@ -1,29 +1,5 @@
 defaultStorageMapping: WORK
 installedPackages: {}
-jobs:
-  Job-4:
-    excludeSelector: ""
-    id: 4
-    includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: WORK name: STG_CUSTOMER1 }"
-    name: its_job
-    steps: []
-    subgraphs: []
-  Job-5:
-    excludeSelector: ""
-    id: 5
-    includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: WORK name: STG_CUSTOMER3 } OR { location: WORK name: FCT_CUSTOMER3 }"
-    name: its_job_V2
-    steps: []
-    subgraphs: []
-locations:
-  SAMPLE:
-    mappingDefinitions:
-      "2":
-        database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCH_SF1
-      "3":
-        database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCH_SF1
   WORK:
     mappingDefinitions:
       "2":
@@ -1494,15 +1470,3 @@ stepTypes:
             {% endif %}
     name: Persistent Stage
     version: 1
-subgraphs:
-  Subgraph-1:
-    id: "1"
-    name: New Subgraph
-    steps:
-      - a9ceccac-bcc1-42a7-bb5e-97c98ee9d9a7
-      - f8cc7140-aec4-433c-8db2-a19b0932c1fa
-  Subgraph-2:
-    id: "2"
-    name: New Subgraph
-    steps: []
-version: 2
