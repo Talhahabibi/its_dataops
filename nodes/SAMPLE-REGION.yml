@@ -1,0 +1,63 @@
+steps:
+  REGION-609b5c34-6d7a-444e-b6e8-faf4d58bc05d:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: Region data as defined by TPC-H
+      locationName: SAMPLE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: fe240b25-a40a-4419-8682-c543b2a65ca1
+              stepCounter: 609b5c34-6d7a-444e-b6e8-faf4d58bc05d
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: R_REGIONKEY
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 116bcf91-43c3-49ed-944c-1f49ee49aad5
+              stepCounter: 609b5c34-6d7a-444e-b6e8-faf4d58bc05d
+            config: {}
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: R_NAME
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: bd7e1ac4-5235-4d78-8d78-1f9222a9d6ef
+              stepCounter: 609b5c34-6d7a-444e-b6e8-faf4d58bc05d
+            config: {}
+            dataType: VARCHAR(152)
+            defaultValue: ""
+            description: ""
+            name: R_COMMENT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SAMPLE', 'REGION') }}
+      name: REGION
+      schema: ""
+      sqlType: Source
+      table: REGION
+      type: sourceInput
+    stepCounter: 609b5c34-6d7a-444e-b6e8-faf4d58bc05d

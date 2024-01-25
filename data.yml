@@ -1,7 +1,5 @@
 defaultStorageMapping: WORK
 installedPackages: {}
-jobs: {}
-locations:
   WORK:
     mappingDefinitions:
       "2":
@@ -1472,5 +1470,3 @@ stepTypes:
             {% endif %}
     name: Persistent Stage
     version: 1
-subgraphs: {}
-version: 2
