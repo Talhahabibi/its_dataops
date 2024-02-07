@@ -1,0 +1,48 @@
+steps:
+  FCT_NODE-b4c834ab-f1cd-4e82-a7dc-f8ee1d87a48b:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: WORK
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 995ca055-fec6-49c8-a2d6-9ae591102789
+              stepCounter: b4c834ab-f1cd-4e82-a7dc-f8ee1d87a48b
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 141cf6a3-f692-4d85-a868-283d7d9cc3ac
+              stepCounter: b4c834ab-f1cd-4e82-a7dc-f8ee1d87a48b
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('WORK', 'FCT_NODE') }}
+      name: FCT_NODE
+      schema: ""
+      sqlType: Source
+      table: FCT_NODE
+      type: sourceInput
+    stepCounter: b4c834ab-f1cd-4e82-a7dc-f8ee1d87a48b
