@@ -1,5 +1,5 @@
 steps:
-  CUSTOMER-43320df3-3b55-45a6-8a2e-b4099901f022:
+  CUSTOMER-01bc282d-d520-4281-85c2-fcde361b0baf:
     operation:
       database: ""
       dataset: ""
@@ -13,8 +13,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 9cd277f0-6dc4-45d3-937f-c7a20d784671
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: 6c627695-09d7-4805-b301-ce2ab92c3b40
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -28,8 +28,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 92419590-7241-494d-85cb-d8179e1f583f
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: 4c830a21-75a6-4025-9a83-0144eb03c1c5
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: VARCHAR(25)
             defaultValue: ""
@@ -43,8 +43,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 00dd9fe5-7f07-4697-94fa-e58afb788bb7
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: 3c261c80-7a9e-4610-b1ae-b6dbe4446a72
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: VARCHAR(40)
             defaultValue: ""
@@ -58,8 +58,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 2293de1f-3d12-49ff-9837-2018f7e13c4c
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: 70748dab-9236-48c7-87bb-a09bdddacf3c
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -73,8 +73,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 42c11d26-4968-4925-a22d-28157bea575c
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: 975ab54d-eaef-4de3-a7ed-c08f5aac69d9
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: VARCHAR(15)
             defaultValue: ""
@@ -88,8 +88,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 41bed830-98c7-47ee-a1e5-7c9ce157be2e
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: e5b35773-e69c-4f39-a0a4-2af22a27d005
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: NUMBER(12,2)
             defaultValue: ""
@@ -103,8 +103,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: e02e4272-bd29-4c32-91e5-66826cc32132
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: d9e19b8d-2bba-4f61-848e-ce64a3e919ee
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: VARCHAR(10)
             defaultValue: ""
@@ -118,8 +118,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: c17b3cd8-24a8-491a-8c6b-642d2cb0bce1
-              stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+              columnCounter: da7352d0-2ad1-4a32-b666-45e44e5e0948
+              stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
             config: {}
             dataType: VARCHAR(117)
             defaultValue: ""
@@ -135,4 +135,4 @@ steps:
       sqlType: Source
       table: CUSTOMER
       type: sourceInput
-    stepCounter: 43320df3-3b55-45a6-8a2e-b4099901f022
+    stepCounter: 01bc282d-d520-4281-85c2-fcde361b0baf
