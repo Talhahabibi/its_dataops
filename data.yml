@@ -1,7 +1,22 @@
 defaultStorageMapping: WORK
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: SAMPLE name: LINEITEM } OR { location: SAMPLE name: NATION } OR { location: SAMPLE name: ORDERS } OR { location: SAMPLE name: PART } OR { location: SAMPLE name: PARTSUPP }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
+  SAMPLE:
+    mappingDefinitions:
+      "2":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCDS_SF100TCL
+      "3":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCDS_SF100TCL
   WORK:
     mappingDefinitions:
       "2":
