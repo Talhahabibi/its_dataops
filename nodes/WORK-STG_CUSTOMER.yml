@@ -24,7 +24,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_CUSTKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 6c627695-09d7-4805-b301-ce2ab92c3b40
@@ -38,7 +38,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_NAME
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 4c830a21-75a6-4025-9a83-0144eb03c1c5
@@ -52,7 +52,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_ADDRESS
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 3c261c80-7a9e-4610-b1ae-b6dbe4446a72
@@ -66,7 +66,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_NATIONKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 70748dab-9236-48c7-87bb-a09bdddacf3c
@@ -80,7 +80,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_PHONE
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 975ab54d-eaef-4de3-a7ed-c08f5aac69d9
@@ -94,7 +94,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_ACCTBAL
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: e5b35773-e69c-4f39-a0a4-2af22a27d005

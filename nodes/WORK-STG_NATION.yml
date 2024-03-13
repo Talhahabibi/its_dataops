@@ -24,7 +24,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: N_NATIONKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: ca5961e4-890c-4b7f-a05e-d5a530c4d622
@@ -38,7 +38,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: N_NAME
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 044cb6ca-8d62-4786-974c-d77c072b5d4d
@@ -52,7 +52,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: N_REGIONKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: da285c10-e2f6-43f8-87ca-a47d5fd6585d

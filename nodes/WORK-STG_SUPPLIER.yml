@@ -24,7 +24,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_SUPPKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: e07b5c79-e5f6-4abd-914c-c20bb06ecfcc
@@ -38,7 +38,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_NAME
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 7cbbd8b1-af1c-409e-8d0f-55922492f889
@@ -52,7 +52,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_ADDRESS
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: e887ac7f-b035-4e81-98de-541f7a386230
@@ -66,7 +66,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_NATIONKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 32b642f3-c54e-4f95-8697-12af5d152453
@@ -80,7 +80,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_PHONE
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 93bc087b-de33-4d12-8384-63691907afe6
@@ -94,7 +94,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_ACCTBAL
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 7d154541-8e2c-4ffc-ab41-04a85efa115c
