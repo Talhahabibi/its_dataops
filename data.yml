@@ -17,10 +17,10 @@ locations:
     mappingDefinitions:
       "2":
         database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCDS_SF100TCL
+        schema: TPCH_SF1000
       "3":
         database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCDS_SF100TCL
+        schema: TPCH_SF1000
   WORK:
     mappingDefinitions:
       "2":
