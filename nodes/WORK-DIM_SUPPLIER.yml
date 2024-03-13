@@ -41,7 +41,7 @@ steps:
             hashDetails: null
             isBusinessKey: true
             name: S_SUPPKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 7aa552d1-d1dc-4eeb-90b8-7ffe8551d9a5
@@ -55,7 +55,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_NAME
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 137e98de-6a48-4c14-b81e-9aa7fca47a36
@@ -69,7 +69,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_ADDRESS
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 38f08d55-c0c9-4866-8fdc-ea509c09e224
@@ -83,7 +83,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_NATIONKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 3f3a5ca1-40a7-4bb3-9fc2-304fa6f467e9
@@ -97,7 +97,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_PHONE
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 2fc943e9-795d-4ad1-bc26-5afd516f6c8a
@@ -111,7 +111,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: S_ACCTBAL
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 9e491a4f-812f-43c5-ac76-717d33d327f5
