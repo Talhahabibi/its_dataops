@@ -11,7 +11,7 @@ jobs:
   Job-4:
     excludeSelector: ""
     id: 4
-    includeSelector: ""
+    includeSelector: "{ location: SAMPLE name: LINEITEM }"
     name: New Job
     steps: []
     subgraphs: []
