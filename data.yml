@@ -8,6 +8,13 @@ jobs:
     name: New Job
     steps: []
     subgraphs: []
+  Job-7:
+    excludeSelector: ""
+    id: 7
+    includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: SAMPLE name: LINEITEM } OR { location: SAMPLE name: ORDERS } OR { location: SAMPLE name: SUPPLIER } OR { location: WORK name: STG_CUSTOMER } OR { location: WORK name: STG_LINEITEM } OR { location: WORK name: STG_ORDERS } OR { location: WORK name: STG_SUPPLIER }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   SAMPLE:
     mappingDefinitions:
