@@ -4,7 +4,7 @@ jobs:
   Job-10:
     excludeSelector: ""
     id: 10
-    includeSelector: "{ location: SAMPLE name: LINEITEM } OR { location: WORK name: STG_LINEITEM } OR { location: WORK name: STG_LINEITEM1 } OR { location: SAMPLE name: SUPPLIER } OR { location: SAMPLE name: CUSTOMER } OR { location: SAMPLE name: NATION } OR { location: SAMPLE name: ORDERS } OR { location: SAMPLE name: PART } OR { location: SAMPLE name: PARTSUPP } OR { location: SAMPLE name: REGION }"
+    includeSelector: "{ location: SAMPLE name: LINEITEM } OR { location: WORK name: STG_LINEITEM } OR { location: WORK name: STG_LINEITEM1 } OR { location: SAMPLE name: SUPPLIER } OR { location: SAMPLE name: CUSTOMER } OR { location: SAMPLE name: NATION } OR { location: SAMPLE name: ORDERS } OR { location: SAMPLE name: PART } OR { location: SAMPLE name: PARTSUPP } OR { location: SAMPLE name: REGION } OR { location: WORK name: PSTG_CUSTOMER }"
     name: New Job
     steps: []
     subgraphs: []
