@@ -8,6 +8,13 @@ jobs:
     name: New Job
     steps: []
     subgraphs: []
+  Job-11:
+    excludeSelector: ""
+    id: 11
+    includeSelector: "{ location: SAMPLE name: CUSTOMER }"
+    name: New Job
+    steps: []
+    subgraphs: []
   Job-9:
     excludeSelector: ""
     id: 9
