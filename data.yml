@@ -4,6 +4,13 @@ jobs:
   Job-2:
     excludeSelector: ""
     id: 2
+    includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: SAMPLE name: LINEITEM } OR { location: WORK name: DIM_CUSTOMER }"
+    name: New Job
+    steps: []
+    subgraphs: []
+  Job-3:
+    excludeSelector: ""
+    id: 3
     includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: SAMPLE name: LINEITEM }"
     name: New Job
     steps: []
