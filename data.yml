@@ -15,6 +15,13 @@ jobs:
     name: New Job
     steps: []
     subgraphs: []
+  Job-12:
+    excludeSelector: ""
+    id: 12
+    includeSelector: "{ location: SAMPLE name: CUSTOMER } OR { location: WORK name: DIM_CUSTOMER }"
+    name: failed
+    steps: []
+    subgraphs: []
   Job-9:
     excludeSelector: ""
     id: 9
